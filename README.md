@@ -4,7 +4,6 @@
 - 프로젝트 소개
 - 기술스택
 - 주요기능
-- 프로젝트 구조
 - Trouble Shooting
 
 # 👨‍🏫 프로젝트 소개
@@ -29,25 +28,6 @@ GitHub
 - 랜덤 포켓몬 이미지 프로필 설정=
 - CoreData를 활용한 로컬 데이터 저장
 - 포켓몬 API 연동
-
-# 프로젝트 구조
-Copypokemon/
-├── Controllers/
-│   ├── ContactListViewController.swift
-│   └── PhoneBookViewController.swift
-├── Models/
-│   ├── ContactModel.xcdatamodeld
-│   └── Pokemon.swift
-├── Views/
-│   └── ContactCell.swift
-├── Managers/
-│   ├── CoreDataManager.swift
-│   └── NetworkManager.swift
-├── Extensions/
-│   └── UIColor+Hex.swift
-└── Application/
-    ├── AppDelegate.swift
-    └── SceneDelegate.swift
     
 # Trouble Shooting
 연락처 정렬 문제
